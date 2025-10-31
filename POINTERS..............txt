@@ -1,0 +1,29 @@
+                         pointers
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+ 
+int a=10;
+//Declaration
+int *ptr;
+ptr=&a;
+
+cout << "a =" << a << endl;
+cout << "Adress of a:=" << &a;
+cout << "Adress of a through pointer:=" << ptr;
+cout << "*ptr:=" <<*ptr <<endl;
+    return 0;
+}
+
+           code after running...................
+
+a =10
+Adress of a:=0x7ffce52e36f4Adress of a through pointer:=0x7ffce52e36f4*ptr:=10
+
+
+=== Code Execution Successful ===
+
+                    ---------------------------------------------------------------------------------------------------------
