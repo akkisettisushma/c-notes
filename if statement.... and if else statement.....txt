@@ -1,0 +1,184 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a=10;
+    if (a>15)
+    {
+        cout <<"a is greater than 15";
+    }
+        cout <<"a is lesser than 15";
+    return 0;
+}       
+
+
+            after running code................
+                            
+                                 a is lesser than 15
+
+                                      === Code Execution Successful ===
+
+
+                          -----------------------------------------------------------------------------------------------
+                                                  if else statement-
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a=10;
+    if (a>15)
+    {
+        cout <<"a is greater than 15";
+    }
+    else{
+        cout <<"a is lesser than 15";
+    }
+    return 0;
+}
+                            code after running.......................
+                           
+
+                                      a is lesser than 15
+
+                                           === Code Execution Successful ===
+
+
+
+                     ------------------------------------------------------------------------
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a=20;
+    if (a>15)
+    {
+        cout <<"a is greater than 15";
+    }
+    else{
+        cout <<"a is lesser than 15";
+    }
+    return 0;
+}                
+                    
+              code after running...............
+
+                                a is greater than 15
+
+                                          === Code Execution Successful ===
+                            ----------------------------------------------------------------------------------------
+                       
+                                     if else even or odd statement coding
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout << "enter a number:";
+    cin>>a;
+    if (a%2==0)
+{
+    cout << a << "is even";
+}
+else
+{
+    cout << a <<" is odd!";
+}
+    
+    
+    return 0;
+}
+
+                after running code..................
+
+
+                        enter a number:2
+                        2is even
+
+                            === Code Execution Successful ===
+
+                      -----------------------------------------------------------------------------------------------------
+
+                               if else statement on coding in voting
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a;
+    cout << "enter a number:";
+    cin>>a;
+    if (a >=18)
+{
+    cout << a << "is elgible to vote!";
+}
+else
+{
+   int years_left=18-a;
+   cout <<"you are not eligible to vote"<<endl;
+   cout <<"you have to wait for "<<years_left<<endl;
+}
+    
+    return 0;
+}
+
+
+                    code after running....................
+
+                         enter a number:16
+                         you are not eligible to vote
+                         you have to wait for 2
+
+
+                                === Code Execution Successful ===
+
+                           ---------------------------------------------------------------------------------------------
+
+                               if else ststement coding on num1,num2,num3
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+   int num1,num2,num3;
+   cout <<"enter three numbers:";
+   cin >>num1>>num2>>num3;
+   
+   //find the largest number
+  if (num1 >= num2 && num1 >= num3)
+  {
+    cout <<num1 <<"is the largest number"<<endl;
+  }
+  else if (num2>=num1 && num2 >= num3)
+  {
+      cout << num2 <<"is the largest number"<<endl;
+  }
+  else
+  {
+      cout << num3 <<"is the largest number"<<endl;
+  }
+   return 0;
+}
+
+
+                        code after running...............................
+
+                               enter three numbers:2 3 5
+                               5is the largest number
+
+
+                                           === Code Execution Successful ===
+
+
+                          ----------- -------------------------------------------------------------------------------------------
+

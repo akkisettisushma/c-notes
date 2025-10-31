@@ -1,0 +1,132 @@
+function in c++.
+ A function in c++ is a group of statement that performs a specific task and can be reused anywhere in program.
+
+1.Reusability - write once and use many times.
+2.Readibility - code becomes easier to read and understand.
+3.debugging   - errors are easier to find since each function is small and focused.
+4.Modularity  - large programs are converted into samall ones.
+5.Collabration-
+
+
+
+               ------------------------------------------------------------------------------------------------------- 
+
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+//function defination
+void greet()
+{
+    cout<<"Happy Birthday!!!!"<<endl;
+}
+
+  int main()
+  {
+      greet(); //calling the function
+      greet(); 
+  //body
+  
+    return 0;
+}
+
+
+               CODE AFTER RUNNING...............
+
+                        Happy Birthday!!!!
+                        Happy Birthday!!!!
+
+
+                            === Code Execution Successful ===
+
+                      ------------------------------------------------------------------------------------------------------
+
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ 
+//function defination
+   int add(int a,int b) //passind parameters
+{
+    return a=b; //returnig the values
+}
+
+
+int mul(int a,int b)
+{
+    return a*b;
+}
+
+int sub(int a,int b)
+{
+    return a-b;
+}
+int main()
+{
+    cout<<"addition :"<<add(5,10)<<endl;
+    cout<<"multiplication :"<<mul(5,10)<<endl;
+    cout<<"substraction :"<<sub(5,10)<<endl;
+    return 0;
+}
+
+                   code after running................
+
+addition :10
+multiplication :50
+substraction :-5
+
+
+=== Code Execution Successful ===
+
+                      --------------------------------------------------------------------------------------------------
+
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+ 
+//function defination
+   int add(int a,int b) //passind parameters
+{
+    return a=b; //returnig the values
+}
+
+
+int mul(int a,int b)
+{
+    return a*b;
+}
+
+int sub(int a,int b)
+{
+    return a-b;
+}
+float div1(int a,int b)
+{
+    if(b==0)
+   {
+    cout<<"division by zero!!infinite"<<endl;
+    return 0;
+ } 
+    return (float)a/b;
+}
+
+int main()
+{
+    cout<<"addition :"<<add(5,10)<<endl;
+    cout<<"multiplication :"<<mul(5,10)<<endl;
+    cout<<"substraction :"<<sub(5,10)<<endl;
+    cout<<"division :"<<div1(5,10)<<endl;
+    return 0;
+}
+
+              code after running...............
+addition :10
+multiplication :50
+substraction :-5
+division :0.5
+
+
+=== Code Execution Successful ===

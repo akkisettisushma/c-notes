@@ -1,0 +1,12 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a=10,b=20;
+    cout <<"logical and: "<<(a > 0 && b < 0) <<endl;
+    cout <<"logical or :"<<(a <0 || b>0 ) <<endl;
+    cout <<"logical not :"<< !(b>0) <<endl;
+    
+    return 0;
+}

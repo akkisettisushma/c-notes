@@ -1,0 +1,13 @@
+// Operators in c++
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a=10,b=20;
+    cout<<"greater:"<<(a>b) <<endl;
+    cout<<"lesser:"<<(a<b) <<endl;
+    cout<<"greater than or equals to:"<<(a>=b)<<endl;
+    cout<<"lesser than or equals to:"<<(a<=b)<<endl;
+    return 0;
+}

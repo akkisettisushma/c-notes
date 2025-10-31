@@ -1,0 +1,12 @@
+// take user input and display the output
+#include <iostream>
+using namespace std; 
+int main() 
+
+{
+    int a=10;
+
+    cout << "Enter Your Reg No:"<<a;
+
+    return 0;
+}

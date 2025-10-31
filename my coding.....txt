@@ -1,0 +1,34 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main()
+
+{
+    
+    //string is used to store sequence of character
+    string name ="sushma";
+    
+    //integer are used to store whole numbers
+    int age=18;
+    
+    //float is used store decimal numbers
+    float height=5.1;
+    
+    //double is used double precision values
+    double weight=53.323;
+    
+    //char is used to store a single charcter
+    char blood_group='b';
+    
+    cout <<"string"<<name<<endl;
+    
+    cout <<"integer"<<age<<endl;
+    
+    cout <<"float"<<height<<endl;
+    
+    cout<<"double"<<weight<<endl;
+    
+    cout<<"char"<<blood_group<<endl;
+    
+    return 0;
+}

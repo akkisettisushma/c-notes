@@ -1,0 +1,401 @@
+  1.                                 CONSTRUCTORS
+ }
+    #include <iostream>
+using namespace std;
+
+class teacher{
+    private:
+    //data members
+    string name;
+    string subject;
+    int year;
+    public:
+    void setdetail(string tname , string tsubject , int tyears)
+    {
+        name = tname;
+        subject = tsubject;
+        year = tyears;
+    }
+    //member function
+    void display()
+    {
+        cout << "Name:" <<name
+             << "Subject:" << subject
+             << "year:" << year << endl;
+    }
+ };
+    int main() {
+        //create  2 object
+        teacher t1, t2, t3;
+        //assign values to object
+        /*t1.name = riya
+        t1.subject = electronics
+        t1.year = 9*/
+ 
+        t1.setdetail("riya","electronics",9);
+        t2.setdetail("raj","physics",7);
+        t3.setdetail("ram","chemistry",5);
+ 
+       t1.display();
+       t2.display();
+       t3.display();
+        return 0;
+ 
+
+ 
+               code after running..........................
+
+Name:riyaSubject:electronicsyear:9
+Name:rajSubject:physicsyear:7
+Name:ramSubject:chemistryyear:5
+
+
+=== Code Execution Successful ===
+
+              ------------------------------------------------------------------------------------------------
+2.
+
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+    public:
+    string name;
+    string dept;
+    int experience;
+    double salary;
+ 
+    //constructor
+    Teacher()
+    {
+        cout <<"iam a default constructor" <<endl;
+    }
+    void displayinfo()
+    {
+        cout<<"teacher name :" <<name <<endl;
+        cout<<"department :" <<name <<endl;
+        cout<<"experience :" <<name <<endl;
+        cout<<"salary :" <<name <<endl;
+    }
+};
+    int main()
+    {
+       Teacher T1;//create an object
+ 
+ 
+    return 0;
+    }
+
+      CODE AFTER RUNNING..................
+
+iam a default constructor
+
+
+=== Code Execution Successful ===
+
+                     -------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+public:
+string name;
+string dept;
+int experience;
+double salary;
+
+//constructor
+Teacher()
+{
+    name="Aribi";
+    dept="computer science";
+    experience=10;
+    salary=75000;
+}
+void displayinfo()
+{
+    cout <<"Teacher name :" <<name<<endl;
+    cout <<"Department:" <<dept<<endl;
+    cout <<"Experience:" <<experience<<endl;
+    cout <<"Salary:" <<salary<<endl;
+}
+};
+int main()
+{
+    Teacher T1;//create an object
+    T1.displayinfo();
+
+ 
+    return 0;
+}
+
+      code after running.......
+
+Teacher name :Aribi
+Department:computer science
+Experience:10
+Salary:75000
+
+
+=== Code Execution Successful ===
+
+                          ------------------------------------------------------------------------------------
+
+                   after some modifications
+
+
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+public:
+string name;
+string dept;
+int experience;
+double salary;
+
+//constructor
+Teacher()
+{
+    name="Aribi";
+    dept="computer science";
+    experience=10;
+    salary=75000;
+    cout <<"Teacher name :" <<name<<endl;
+    cout <<"Department:" <<dept<<endl;
+    cout <<"Experience:" <<experience<<endl;
+    cout <<"Salary:" <<salary<<endl;
+}
+
+
+
+};
+int main()
+{
+    Teacher T1;//create an object
+ 
+
+ 
+    return 0;
+}
+
+      code after running..............
+
+Teacher name :Aribi
+Department:computer science
+Experience:10
+Salary:75000
+
+
+=== Code Execution Successful ===
+
+                   --------------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+public:
+string name;
+string dept;
+int experience;
+float salary;
+
+//constructor
+Teacher()
+{
+    name="Aribi";
+    dept="computer science";
+    experience=10;
+    salary=75000;
+    cout <<"Teacher name :" <<"Aribi"<<endl;
+    cout <<"Department:" <<"computer science"<<endl;
+    cout <<"Experience:" <<10<<endl;
+    cout <<"Salary:" <<75000<<endl;
+}
+
+
+
+};
+int main()
+{
+    Teacher T1;//create an object
+ 
+
+ 
+    return 0;
+}
+
+  CODE AFTER RUNNING..............
+
+Teacher name :Aribi
+Department:computer science
+Experience:10
+Salary:75000
+
+
+=== Code Execution Successful ===
+
+                     ---------------------------------------------------------------------------------------
+
+#include <iostream>
+using namespace std;
+
+class Teacher
+{
+public:
+string name;
+string dept;
+int experience;
+double salary;
+
+//constructor
+Teacher(string n,string d,int e,int s)
+
+{
+ 
+   cout <<"Teacher name :" <<n<<endl;
+   cout <<"Department:" <<d<<endl;
+   cout <<"Experience:" <<e<<endl;
+   cout <<"Salary:" <<s<<endl;
+}
+ 
+};
+int main()
+{
+   Teacher T1("Aribi","Computer science",10,75000);//create an object
+ 
+   Teacher T2("Riya","Maths",5,50000);//create an boject
+   return 0;
+}
+
+       code after running.............
+
+Teacher name :Aribi
+Department:Computer science
+Experience:10
+Salary:75000
+Teacher name :Riya
+Department:Maths
+Experience:5
+Salary:50000
+
+
+=== Code Execution Successful ===
+
+                   ---------------------------------------------------------------------------------------------------
+
+                       Abstraction
+
+//class cal >>Take 2 numbers from the user and add them
+#include <iostream>
+using namespace std;
+
+class cal
+{
+    public:
+    int a , b;
+ 
+    void print_out()
+    {
+        cout<<"enter 2 number";
+        cin>>a>>b;
+        cout<<"Addition"<<a+b<<endl;
+    }
+};
+
+
+
+int main()
+{
+    cal c;
+    c.print_out();//abstraction
+}
+    return 0;
+}
+
+
+---
+
+
+
+#include <iostream>
+using namespace std;
+
+class Movie{
+ 
+    public:
+    string title;
+    string director;
+    double duration;
+ 
+
+ 
+    //constructor
+    Movie(string title,string director,double duration)
+ 
+ 
+
+ {
+ 
+     cout <<"title :" << title <<endl;
+     cout <<"director:" << director <<endl;
+     cout << "duration :" << duration <<endl;
+ 
+ }
+};
+int main()
+{
+    Movie M1("Bahubali","Rajamouli",3.20);//create an object
+
+ 
+   return 0;
+ 
+ 
+}
+
+                   code after running.............
+
+title :Bahubali
+director:Rajamouli
+duration :3.2
+
+
+=== Code Execution Successful ===
+
+               ------------------------------------------------------------------------------------------------------
+
+
+#include <iostream>
+using namespace std;
+class parent
+{
+    public:
+    void food()
+    {
+        cout << "Inherited.burger" ;}
+};
+class child : public parent//creating child class and inheriting it
+
+{};
+
+    int main()
+    {
+        child b;
+        b.food();
+
+    return 0;
+}
+
+    code after running.............
+
+Inherited.burger
+
+=== Code Execution Successful ===
+
+           ---------------------------------------------------------------------------------------------------------------

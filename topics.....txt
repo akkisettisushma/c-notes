@@ -1,0 +1,8 @@
+introduction to C.
+introduction to C++.
+difference between C and C++.
+varaibles,datatypes,operators.
+control stuctures-If,else,else if.
+loops-for,while,do-while.
+functions.
+switch and statements.

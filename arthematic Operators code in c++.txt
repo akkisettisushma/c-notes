@@ -1,0 +1,19 @@
+// Operators in c++
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int a=10,b=20;
+    cout<<"Addition :"<<a+b<<endl;
+    
+    cout<<"substraction : "<<a-b<<endl;
+    
+    cout<<"mulipliction : "<<a*b<<endl;
+    
+    cout<<"division : "<<a/b<<endl;
+    
+    cout<<"modulus : "<<a%b<<endl;
+    
+    return 0;
+}
